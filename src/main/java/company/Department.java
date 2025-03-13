@@ -3,6 +3,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import org.apache.log4j.Logger;
 
+/**
+ * Initialises Department Class
+ */
 public class Department {
     ArrayList<Employee> employees = new ArrayList();
     String deptName;
@@ -59,5 +62,7 @@ public class Department {
 
         return false;
     }
+
+
     final static Logger logger = Logger.getLogger(Department.class);
 }
